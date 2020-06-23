@@ -1,0 +1,37 @@
+1、User Case Diagram
+	open the file useCaseDiagram.png
+
+2、Component Diagram
+	open the file ComponentDiagram.png
+
+3、Architecture Diagram
+	open the file architecture.png
+
+4、Sequence diagram of at least 1 use case.
+	 sequenceDiagram.png
+
+5、Cloud Deployment diagram
+	deployDiagram.png
+
+6、API Spec
+	under the folder "notificationSystem"
+	check file com.example.demo.notification.dto.NotificationDTO
+
+public interface NotificationService {
+
+    void sendNotification(NotificationDTO notification);
+
+    NotificationDTO queryNotification(NotificaitonQuery notificaitonQuery);
+}
+
+7、Proposed list of technology and products 
+	SpringBoot
+	MySQL
+	Redis
+	RabbitMQ
+	Docker
+	CloudServer
+	
+8 run the testCase under the folder "notificationSystem" to see the implementation 
+	com.example.demo.TestNotification#testNotificaiton
+
