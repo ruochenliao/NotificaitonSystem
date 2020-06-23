@@ -26,8 +26,10 @@ public interface NotificationService {
 
 7、Proposed list of technology and products 
 	SpringBoot
+	SpringCloud
 	MySQL
 	Redis
+	DDD
 	RabbitMQ
 	Docker
 	CloudServer
